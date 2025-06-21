@@ -5,7 +5,7 @@ B = np.random.randint(0, 10, size=(3, 3))
 A_transpose = A.T#iki farklı yöntemle transpoz alabiliriz,satır ve sutünleri yer değiştirmektir bu
 B_transpose = np.transpose(B)
 suM=A+B#matrisleri topla,değerleri üst üste basılmış gibi toplanır
-multip=np.dot(A,B)
+multip=np.dot(A,B)#matrisleri çarp
 try:
     ters_A = np.linalg.inv(A)#matrisin tersini alma
 except np.linalg.LinAlgError:
