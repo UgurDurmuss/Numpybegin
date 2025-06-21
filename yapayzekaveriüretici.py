@@ -15,5 +15,5 @@ print("Sınıf Ortalamaları:")
 for  i,ortalama in enumerate(notes_averageofclass):#enumerate sayesinde i'yi index olarak,ortalamayı bu indexe eşitleyen değeri bulduk
     print(f"Sınıf {i+1}: {ortalama:.2f}")
     
-en_yuksek = np.argmax(notes_averageofclass) + 1#argmax en yüksek değere sahip olan değerin index'ini verir
+en_yuksek = np.argmax(notes_averageofclass) + 1#argmax en yüksek değere sahip olan değerin index'ini verir,index sıfırdan başlar tabi
 print(f"En başarılı sınıf: Sınıf {en_yuksek}")
